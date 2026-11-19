@@ -1,0 +1,6 @@
+Collecting imageio-ffmpeg
+  Downloading imageio_ffmpeg-0.6.0-py3-none-macosx_10_9_intel.macosx_10_9_x86_64.whl.metadata (1.5 kB)
+Downloading imageio_ffmpeg-0.6.0-py3-none-macosx_10_9_intel.macosx_10_9_x86_64.whl (24.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.9/24.9 MB 7.3 MB/s  0:00:03
+Installing collected packages: imageio-ffmpeg
+Successfully installed imageio-ffmpeg-0.6.0

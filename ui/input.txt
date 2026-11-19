@@ -1,0 +1,24 @@
+Validation of Region Tenant -- User should be able to create a Tenant with Max of 10 Trilogy Domains
+ 
+Login:
+Launch URL from config file
+Give username - Adminuser value from config file
+Give Password - AdminPwd value from config file - Click Sign In
+Validate that the application redirects the user to the appropriate landing page after successful authentication.
+Check Multi-Tenant Selection popup appears
+Click on the choose your tenant dropdown
+Search for Tenant using tenantSearchTerm from config file and select the tenant that ends with tenantIdSuffix from config file
+ 
+Page Accessibility Verification:
+1. Go to Tenants List
+2. Click on + Icon
+3. Enter Tenant Name, Trilogy Domain, Trilogy Go Domain and Description
+4. Click on + Icon near the Trilogy Domain field
+5. We can add up to 10 Trilogy Domains Max 
+6. Once it reaches 10 trilogy domains - + Icon near the Trilogy Domain should be disabled
+7. User should get an error when one or more of the Trilogy Domains are Same 
+8. All the 10 Trilogy Domains should be unique
+ 
+Logout:
+Once done, Click on Profile Icon, click on Sign Out and then click on "Logout" 
+User should be logged out and re-directed to Login Page again

@@ -1,0 +1,28 @@
+1. Launch the Graton app.
+2. On the Login screen, enter the mobile number **4045439875**.
+3. Click the **Continue** button.
+4. **If** the device permission popup appears, click **Allow**. **This popup may or may not appear depending on the mobile number/device state.**
+5. **If** the location permission prompt appears, select **While Using This App**. **This prompt may or may not appear depending on the mobile number/device state.**
+6. **If** the next permission/popup appears, click **Cancel**. **This popup may or may not appear depending on the mobile number/device state.**
+7. Enter the PIN as **5791**.
+8. Click **Enable Biometric**.
+9. Enter the OTP as **123456**.
+10. Click **Save the Device**.
+11. Verify that the device is successfully saved and the user is logged in.
+12. Verify that the **Graton Home/Dashboard** screen is displayed successfully.
+13. Scroll up and click the All Promos button.
+14. Verify that the All Promos screen is displayed successfully.
+15. Click the Back button.
+16. Verify that the user is navigated back to the Promotions screen.
+17. Scroll up Click Shows at Graton.
+18. Verify that the Shows at Graton screen is displayed successfully.
+19. Click the Back button.
+20. Verify that the user is navigated back to the previous screen.
+21. Scroll up AND Click Gaming at Graton.
+22. Verify that the Gaming at Graton screen is displayed successfully.
+23. Click the Back button.
+24. Verify that the user is navigated back to the previous screen.
+25. Scroll up and Click Dining at Graton.
+26. Verify that the Dining at Graton screen is displayed successfully.
+27. Click the Back button.
+28. Verify that the user is navigated back to the previous screen.

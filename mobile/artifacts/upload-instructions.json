@@ -1,0 +1,34 @@
+{
+  "mode": "dry-run",
+  "project_mode": "new",
+  "summary": "Generated and corrected a Robot Framework mobile login suite from the raw Graton story. No Appium session was launched, so the suite is ready to be committed manually.",
+  "files": {
+    "created": [
+      {
+        "path": "mobile/artifacts/tests/resources/config/common.resource",
+        "change": "Appium session bootstrap and shared environment-driven variables."
+      },
+      {
+        "path": "mobile/artifacts/tests/resources/locators/login.locators.resource",
+        "change": "Object repository for the login and activation screens."
+      },
+      {
+        "path": "mobile/artifacts/tests/resources/keywords/login.page.resource",
+        "change": "Page object keywords wrapping the login and device-save flows."
+      },
+      {
+        "path": "mobile/artifacts/tests/tests/new-castle-login.robot",
+        "change": "Single end-to-end login and dashboard verification suite."
+      }
+    ]
+  },
+  "how_to_run": [
+    "python -m pip install -r mobile/artifacts/requirements.txt",
+    "python -m robot --outputdir results mobile/artifacts/tests/tests",
+    "python -m robot --report log.html --outputdir results mobile/artifacts/tests/tests"
+  ],
+  "to_open_pr_when_ready": [
+    "Set run_mode to 'execute' and provide reviewer_ado_user_id + target_repo in mobile/config/workflow-input.current.json.",
+    "Re-run the orchestrator to create the branch, commit files, and open the ADO PR."
+  ]
+}

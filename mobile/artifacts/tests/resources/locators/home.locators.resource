@@ -1,0 +1,6 @@
+*** Variables ***
+# Home, promotions, and section locators
+${HOME_DASHBOARD_MARKER}        xpath=//*[contains(translate(@text,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'POINT BALANCE') or contains(translate(@content-desc,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'POINT BALANCE') or contains(translate(@text,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'PROMOTIONS')]
+${HOME_ALL_PROMOS_BUTTON}       xpath=//*[contains(translate(@text,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'ALL PROMOS') or contains(translate(@content-desc,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'ALL PROMOS')]
+${PROMOTIONS_SCREEN_MARKER}     xpath=//*[contains(translate(@text,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'PROMOTIONS') or contains(translate(@content-desc,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'PROMOTIONS') or contains(translate(@text,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ'),'ALL PROMOS')]
+${SECTION_BACK_BUTTON}           xpath=//*[@content-desc='<' or @text='<' or @content-desc='Navigate up' or @content-desc='Back']

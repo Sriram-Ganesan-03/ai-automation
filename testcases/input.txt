@@ -1,0 +1,36 @@
+# Test Case Authoring — Raw Input (story_source: raw-file)
+#
+# Use this file instead of an ADO user story. Paste acceptance criteria, scenarios,
+# feature/BDD text, or free-form requirements below. The ado-story-intake skill
+# parses this into requirements[] + spec_scenarios[] and the same intake summary
+# shape it produces for an ADO story — no ADO story lookup is performed.
+#
+# Supported: markdown (#/##/- lists), plain text (Story:/AC:/Scenario: lines),
+# or Gherkin (Feature/Scenario/Scenario Outline + Examples tables).
+# Delete this header and replace the example below with your own content.
+
+Story: <short title of the feature or change under test>
+
+Acceptance Criteria:
+1. <first acceptance criterion>
+2. <second acceptance criterion>
+3. <edge case or constraint>
+
+Scenario: <happy path name>
+  Given <precondition>
+  When <action>
+  Then <expected result>
+
+Scenario Outline: <parameterized scenario name>
+  Given <precondition with <param>>
+  When <action with <value>>
+  Then <expected result and status <status>>
+
+  Examples:
+    | param   | value    | status |
+    | valid   | 12345    | 200    |
+    | invalid | ""       | 400    |
+    | missing | <absent> | 401    |
+
+Notes / Test Data:
+- <any fixed tokens, IDs, headers, or business constraints to use verbatim>

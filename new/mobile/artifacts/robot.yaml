@@ -1,0 +1,12 @@
+tasks:
+  run:
+    command: RUN_TIMESTAMP=$(date '+%Y-%m-%d_%H-%M-%S'); RESULTS_DIR="results/$RUN_TIMESTAMP"; mkdir -p "$RESULTS_DIR"; python -m robot --outputdir "$RESULTS_DIR" --output output.xml --log log.html --report report.html tests
+  lint:
+    command: python -m robot --dryrun tests
+
+condaConfig:
+  pipVersion: "24.2"
+
+ignoreFiles:
+  - .gitignore
+  - .venv/

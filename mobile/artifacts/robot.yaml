@@ -1,0 +1,12 @@
+tasks:
+  run:
+    command: python -m robot --outputdir results tests
+  lint:
+    command: python -m robot --dryrun tests
+
+condaConfig:
+  pipVersion: "24.2"
+
+ignoreFiles:
+  - .gitignore
+  - .venv/

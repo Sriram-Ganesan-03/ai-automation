@@ -1,0 +1,73 @@
+{
+  "ado_org_url": "https://dev.azure.com/everi",
+  "ado_project": "PAAS",
+  "story_source": "ado",
+  "raw_input_file": null,
+  "user_story_id": 1386711,
+  "user_story_title_keywords": "Ensure Admin API enforces paas-admin-read and paas-admin-write permissions",
+
+  "source_repo_url": "https://dev.azure.com/everi/_git/PAAS?path=/src/E2E/Everi.PAAS.EndToEndTests/Features",
+  "source_wiki_url": "https://dev.azure.com/everi/PAAS/_wiki/wikis/PAAS.wiki/184947/User-Story-1386711",
+  "source_spec_root_path": "/src/E2E/Everi.PAAS.EndToEndTests/Features",
+  "source_feature_files": ["admin_permissions.feature", "tenant_list.feature"],
+  "source_local_doc_paths": [
+    "C:\\Users\\aravind.shanmugam\\Downloads\\PAAS_Admin_API_AC.docx",
+    "C:\\Users\\aravind.shanmugam\\Downloads\\AuthZ_Test_Data.xlsx"
+  ],
+  "source_local_doc_types": ["docx", "xlsx"],
+
+  "title_prefix": "PAAS - Admin API - AuthZ - <scenario>",
+  "work_item_type": "Test Case",
+  "default_state": "Design",
+  "area_path": "Loyalty Kiosk\\Trilogy Cloud Solutions\\TGO",
+  "iteration_path": "Loyalty Kiosk",
+  "assigned_to": "Shanmugam, Aravind <aravind.shanmugam@everi.com>",
+  "default_priority": 2,
+  "max_steps_per_case": 15,
+
+  "header_validation": {
+    "enabled": true,
+    "expected_header_name": "Content-Type",
+    "expected_header_value": "application/json"
+  },
+
+  "ui_exploration": {
+    "enabled": false,
+    "app_url": "https://tgo.example.com",
+    "app_auth_strategy": "env-var",
+    "target_paths": ["/enroll", "/rewards"],
+    "max_pages": 12
+  },
+
+  "mobile_exploration": {
+    "enabled": false,
+    "platform": "android",
+    "execution_target": "local",
+    "appium_server_url": "http://127.0.0.1:4723",
+    "app_auth_strategy": "env-var",
+    "app_package": "com.everi.tgo",
+    "app_activity": ".MainActivity",
+    "bundle_id": null,
+    "app_path": null,
+    "avd": "Pixel_8_API_34",
+    "browserstack": null,
+    "target_screens": ["Enroll", "Rewards"],
+    "max_screens": 12
+  },
+
+  "output_mode": "excel",
+  "excel": {
+    "worksheet": "Test Cases",
+    "primary_output_dir": "C:\\Users\\aravind.shanmugam\\Downloads",
+    "fallback_output_dir": "C:\\Users\\aravind.shanmugam\\Downloads",
+    "output_file_basename": "PAAS_AdminAPI_AuthZ_TestCases"
+  },
+  "ado_publish": {
+    "target_test_plan_id": null,
+    "target_test_suite_id": null
+  },
+
+  "run_mode": "dry-run",
+  "execution_confirmation": null,
+  "ado_access_mode": "read-only-plus-testcase-write"
+}

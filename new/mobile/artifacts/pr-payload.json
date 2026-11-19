@@ -1,0 +1,6 @@
+{
+  "title": "[Mobile Tests] Graton Login Flow",
+  "description": "Generated Robot Framework + Appium test suite for the Graton login flow from raw input source `mobile/input.txt`.\n\n- Test suite: `mobile/artifacts/tests/tests/new-castle-login.robot`\n- Validation: login flow, permission acceptance, PIN + biometric + OTP completion, save device, home dashboard verification\n- Notes: dry-run only; no live Appium run was performed in this environment.",
+  "source": "raw-file",
+  "source_file": "mobile/input.txt"
+}

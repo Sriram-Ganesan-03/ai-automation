@@ -1,0 +1,32 @@
+{
+  "run_id": "mobile-2026-09-17-graton-login",
+  "run_mode": "dry-run",
+  "input_source": "raw-file",
+  "raw_input_file": "mobile/input.txt",
+  "project_root": "/Users/anandasriram/Desktop/mobile automation",
+  "test_dir": "mobile-tests",
+  "story_title": "Graton Login Flow",
+  "generated": {
+    "new_pom_files": [
+      "mobile/artifacts/tests/resources/config/common.resource",
+      "mobile/artifacts/tests/resources/config/capabilities.resource",
+      "mobile/artifacts/tests/resources/locators/login.locators.resource",
+      "mobile/artifacts/tests/resources/locators/shared-components.locators.resource",
+      "mobile/artifacts/tests/resources/keywords/login.page.resource",
+      "mobile/artifacts/tests/libraries/VersionLocators.py",
+      "mobile/artifacts/tests/tests/new-castle-login.robot"
+    ],
+    "new_project_files": [
+      "mobile/artifacts/robot.yaml",
+      "mobile/artifacts/requirements.txt"
+    ]
+  },
+  "conversion_warnings": [
+    "The exact native app locator IDs were not available in the raw text, so the generated suite uses stable accessibility-based locators and generic IDs as placeholders for the live app to be validated during the first real device run."
+  ],
+  "guardrails": {
+    "appium_analysis": "not performed (dry-run); locators are generated from the scenario text and general Appium conventions.",
+    "ado": "read-only; no work items or PRs mutated (dry-run)."
+  },
+  "pr": null
+}
